@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700,800,900,600,200);
+
+html, body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    background-color: #FFF;
+}
+
+.content{
+    text-align: center;
+    font-weight:100;
+    padding-top: 20em;
+}
+
+header{
+
+    max-width: 100%;
+    min-height: 737px; /*se vc quer fazer uma parada responsiva não deveria setar valores fixos assim, só se usasse media queries*/
+    background:url(../images/top.jpg) no-repeat 0px 0px;
+    background-size: cover;
+
+}
+
+
+h1{
+    color: #FFF;
+}
+
+/*---- menu ----*/
+
+
+.navbar{
+    background-color: #3f3f3f;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fdffff;
+}
+
+nav ul li a{
+    color: #fdffff;
+    border: solid 1px;
+    border-color: red;
+    font-family: 'Open Sans Extrabold', sans-serif;
+    font-size: 14px;
+    /* background:none;
+    font-size: 0.875em;
+    font-weight: 300;
+    display: block;
+    margin: 0px 0px 0 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fff; */
+}
+
+#title1{
+    color: #f9c741;
+    background-color: #3f3f3f;
+    font-family: 'Raleway Semibold', sans-serif;
+    transform:  rotate(355deg) scale(1.039) skew(1deg) translate(0px);
+    -webkit-transform:  rotate(355deg) scale(1.039) skew(1deg) translate(0px);
+    -moz-transform: rotate(355deg) scale(1.039) skew(1deg) translate(0px);
+    -o-transform:  rotate(355deg) scale(1.039) skew(1deg) translate(0px);
+    -ms-transform:  rotate(355deg) scale(1.039) skew(1deg) translate(0px);
+}
+
+#title2{
+    color: #3f3f3f;
+    background-color: #f9c741;
+    font-family: 'Raleway Semibold', sans-serif;
+    transform:  rotate(5deg) scale(1) skew(1deg) translate(0px);
+    -webkit-transform:  rotate(5deg) scale(1) skew(1deg) translate(0px);
+    -moz-transform: rotate(5deg) scale(1) skew(1deg) translate(0px);
+    -o-transform:  rotate(5deg) scale(1) skew(1deg) translate(0px);
+    -ms-transform:  rotate(5deg) scale(1) skew(1deg) translate(0px);
+}
+
+#word1{
+    font-family: 'Raleway Light', sans-serif;
+}
+
+#word2{
+    font-family: 'Raleway Light', sans-serif;
+}
+
+
+/*---- about ----*/
+
+section{
+    margin-top: 80px;
+}
+
+#figuras_about{
+    margin-top: 80px;
+}
+
+.col-md-3{
+
+    text-align: center;
+}
+
+ p, h2{
+     text-align: center;
+ }
+
+ img{
+     vertical-align: middle;
+ }
+
+.col-md-2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border:solid;
+    border-color: #eff3f3;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    text-align: center;
+}
+
+button{
+    border-color: #eff3f3;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+
+}
+
+.thumbnails li{
+    display: block;
+}
+
+/*---- mapa ----*/
+
+#mapa{
+    height: 750px;
+    border: 1px solid red;
+}
+
+/*---- contact ----*/
+
+#contact-title{
+    color: #ffffff;
+    font-family: 'Raleway Extrabold', sans-serif;
+}
+
+#word3{
+    color: #f9c741;
+}
+
+.contact-text{
+    padding:0.8em 0 1em;
+    color: #ffffff;
+    font-family: 'Raleway Light', sans-serif;
+    font-size: 16px;
+}
+
+.contact-form{
+    margin-top: 2em;
+}
+
+.form-submit{
+    margin-top: 1em;
+}
+
+#campo_nome,#campo_email,#campo_site, #campo_soma,#botao-submit{
+    border-radius: 50px;
+}
+
+#campo_nome,#campo_email,#campo_site, #campo_soma{
+    font-size:13px;
+}
+
+#botao-submit{
+    font-family: 'Raleway Extrabold',sans-serif;
+    font-size:12px;
+    background-color: #f9c741;
+    border: 0px solid;
+
+}
+
+#textarea{
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.form-control{
+    background-color: #3f3f3f;
+    border: solid 3px;
+    border-color: #ffffff;
+    color:#ffffff;
+}
+
+#contact{
+    background-color: #3f3f3f;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffffff;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff;
+}
